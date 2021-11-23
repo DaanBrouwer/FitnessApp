@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
@@ -14,5 +15,12 @@ namespace API.Data
         }
 
         public DbSet<AppUser> Users { get; set; }
+        public DbSet<Exercises> Exercises { get; set; }
+
+        public DbSet<History> History { get; set; }
+        public DbSet<Workouts> Workouts { get; set; }
+
+
+       
     }
 }
