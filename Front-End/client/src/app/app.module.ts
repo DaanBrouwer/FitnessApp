@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { WorkoutsComponent } from './workouts/workouts.component';
 import { ExercisesComponent } from './exercises/exercises.component';
 import { HistoryComponent } from './history/history.component';
+import { SharedModule } from './shared.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { HistoryComponent } from './history/history.component';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule, 
-    BsDropdownModule.forRoot()
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
