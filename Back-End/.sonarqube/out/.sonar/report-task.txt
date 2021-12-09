@@ -1,0 +1,6 @@
+projectKey=FitnessAppBack-End
+serverUrl=http://localhost:9000
+serverVersion=9.2.1.49989
+dashboardUrl=http://localhost:9000/dashboard?id=FitnessAppBack-End
+ceTaskId=AX2gC9H_DfzD78IMQNSN
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX2gC9H_DfzD78IMQNSN

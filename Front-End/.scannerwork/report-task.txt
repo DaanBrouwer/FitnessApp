@@ -1,0 +1,6 @@
+projectKey=Workout-Front-End
+serverUrl=http://localhost:9000
+serverVersion=9.2.1.49989
+dashboardUrl=http://localhost:9000/dashboard?id=Workout-Front-End
+ceTaskId=AX2f9-t6DfzD78IMQNSL
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX2f9-t6DfzD78IMQNSL
