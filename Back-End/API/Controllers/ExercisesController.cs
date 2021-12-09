@@ -31,14 +31,14 @@ namespace API.Controllers
 
         [Authorize]
         [HttpGet("{id}")]
-        public async Task<ActionResult<Exercises>> GetExercises(int id)
+        public async Task<ActionResult<Exercises>> GetExerciseID(int id)
         {
             return await _exerciseRepository.GetExercisesbyID(id);
         }
 
         [Authorize]
         [HttpGet("/{name}")]
-        public async Task<ActionResult<Exercises>> GetExercises(string name)
+        public async Task<ActionResult<Exercises>> GetExerciseName(string name)
         {
             return await _exerciseRepository.GetExercisebyName(name);
         }
