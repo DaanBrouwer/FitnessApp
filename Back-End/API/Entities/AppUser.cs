@@ -11,7 +11,8 @@ public class AppUser
 
     public byte[] PasswordSalt { get; set; }
 
+    public DateTime Created { get; set; } = DateTime.Now;
+
     public IList<Workouts> Workouts { get; set; }
 
-    public History History { get; set; }
 }

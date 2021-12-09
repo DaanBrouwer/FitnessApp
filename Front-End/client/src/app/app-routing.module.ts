@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { ExercisesComponent } from './exercises/exercises.component';
 import { HistoryComponent } from './history/history.component';
 import { HomeComponent } from './home/home.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path:'history', component: HistoryComponent},
   ]
 },
+{path:'errors', component: TestErrorsComponent},
 {path:'register', component: RegisterComponent},
 {path:'**', component: HomeComponent, pathMatch: 'full'}
 

@@ -1,17 +1,17 @@
-﻿namespace API.Entities
+﻿namespace API.DTOs
 {
-    public class Workouts
+    public class WorkoutDTO
     {
+
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public AppUser UserId { get; set; }
+        public UserDto UserId { get; set; }
 
-        public ICollection<Exercises> Exercises { get; set; }
+        public ExerciseDTO Exercises { get; set; }
 
         public TimeOnly Time { get; set; }
 
         public DateTime Date { get; set; }
-
     }
 }
